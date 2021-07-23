@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #e9e7e3;
+  height: 100vh;
+  color: #222121;
+  overflow: hidden;
+
+}  
+
+.main-block {
+    width: 50vh;
+    border-radius: 13px;
+    margin:auto;
+    background-color: rgba(240,248,255, 0.6);
+    background-repeat: no-repeat;
+    overflow: hidden; 
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center; 
+
+}
+
+.main-block > * {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Asar', serif;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+
+.weather-conditions-display {
+    display: none;
+    color: #000000;
+    padding: 10px;
+    line-height: 2rem;
+    background-color: rgba(255,255,255,0);
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.location-details {
+
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: right;
+}
+
+.date {
+    text-align: center;
+}
+
+.feelslike {
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.weather-status{
+
+font-size: 20pt;
+padding: 20px;
+
+}
+.weather {
+    font-weight: 550;
+}
+.temp {
+
+    font-size: 43pt;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 20px;
+}
+
+.extra {
+    
+    padding-top: 17pt;
+    font-size: 12pt;
+    display: flex;
+    font-weight: 750;
+}
+
+
